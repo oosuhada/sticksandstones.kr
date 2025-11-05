@@ -1,0 +1,45 @@
+.floating-language-toggle {
+  position: fixed;
+  right: max(16px, env(safe-area-inset-right));
+  bottom: max(16px, env(safe-area-inset-bottom));
+  z-index: 50;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  width: 46px;
+  height: 46px;
+  padding: 0;
+  border: 1px solid rgba(23, 23, 23, 0.16);
+  border-radius: 50%;
+  background: rgba(23, 52, 76, 0.92);
+  color: #fff;
+  box-shadow: 0 14px 32px rgba(23, 23, 23, 0.16);
+  backdrop-filter: blur(14px);
+  cursor: pointer;
+  font-family:
+    Poppins,
+    Pretendard,
+    system-ui,
+    -apple-system,
+    sans-serif;
+  font-size: 11px;
+  font-weight: 900;
+  letter-spacing: 0;
+}
+
+.floating-language-toggle span {
+  opacity: 1;
+}
+
+.floating-language-toggle:focus-visible {
+  outline: 2px solid #a51f24;
+  outline-offset: 3px;
+}
+
+@media (max-width: 640px) {
+  .floating-language-toggle {
+    right: max(12px, env(safe-area-inset-right));
+    bottom: max(12px, env(safe-area-inset-bottom));
+  }
+}
