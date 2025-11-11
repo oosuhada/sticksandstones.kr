@@ -1,0 +1,24 @@
+.DS_Store
+node_modules/
+dist/
+stks-assets/
+public/legacy-wp/
+.env
+.env.local
+.env.*.local
+!.env.example
+
+# Local-only archival payloads can be referenced from archive manifests,
+# but should not be pushed to GitHub unless reviewed first.
+archive/local-only/
+
+# Local WordPress runtime/caches should stay out of this Vite repository.
+*.log
+*.sql
+*.wpress
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.zst
+.vercel
