@@ -2,15 +2,13 @@
 
 근무하면서 맡았던 Sticks & Stones 웹사이트 리빌드와 before/after 비교 작업을 포트폴리오용으로 정리한 공개 레포지토리입니다. 회사 내부 WordPress 소스와 운영 히스토리는 공개하지 않고, 공개 가능한 정적 자산과 Vite/TypeScript 리빌드 결과만 분리했습니다.
 
-## 왜 만들었나 / Why I built it
+## Why I Built It / 만든 이유
 
-실제 회사 업무로 맡았던 프로젝트입니다. 기존 사이트가 WordPress 기반이었는데, 요구사항을 구현하고 수정할수록 구조를 이해하고 유지보수하는 데 드는 비용이 너무 커졌고 결국 **WordPress 안에서 계속 버티기보다 필요한 부분을 직접 현대적인 frontend로 옮기는 편이 낫다**고 판단했습니다. 그 리빌드 경험은 이후 계약 연장으로도 이어졌습니다.
+The site relied on a decade-old WordPress setup tangled with patches from different developers over the years, making routine maintenance practically impossible. I took the initiative to migrate the entire frontend, which directly led to a contract extension. Since proprietary code cannot be shared, this repository is a case study documenting the architectural choices and before/after results.
 
-다만 회사에서 작업한 원본 코드와 운영 자산 전체를 그대로 공개할 수는 없었습니다. 그래서 이 저장소는 당시의 기술적 판단과 migration 결과, before/after 차이를 설명할 수 있도록 **공개 가능한 형태로 다시 구성한 case study**입니다.
+10년 가까이 서로 다른 개발자들의 패치가 누적된 오래된 WordPress 사이트라 코드베이스가 심각하게 엉켜 있었고, 단순 유지보수로는 감당이 안 되는 상태였습니다. 결국 프론트엔드를 직접 새로 마이그레이션했고, 그 성과로 계약 연장까지 이어졌습니다. 원본 코드는 비공개라 기술적 판단과 before/after 결과를 정리한 case study로 재구성했습니다.
 
-This was real client work rather than a side-project redesign. As the WordPress implementation became increasingly difficult to extend and maintain, I migrated the experience to a more controllable frontend stack. Because the original company repository and operations history cannot be published, this public repository reconstructs the work as a safe case study with the migration decisions and visible before/after results.
-
-[Live site](https://stks.oosu.dev) · [Case study](https://stks.oosu.dev/case-study) · [Before/after compare](https://stks.oosu.dev/live-compare)
+[Live Site](https://stks.oosu.dev) · [Case Study](https://stks.oosu.dev/case-study) · [Before/After](https://stks.oosu.dev/live-compare)
 
 ![Sticks & Stones case study hero](.github/assets/sticks-home.png)
 
