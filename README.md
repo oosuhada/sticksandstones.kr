@@ -113,3 +113,7 @@ http://127.0.0.1:4173/legacy-live
 ```bash
 npm run build
 ```
+
+## Topics
+
+[`case-study`](https://github.com/topics/case-study) · [`frontend`](https://github.com/topics/frontend) · [`gsap`](https://github.com/topics/gsap) · [`react`](https://github.com/topics/react) · [`typescript`](https://github.com/topics/typescript) · [`vite`](https://github.com/topics/vite) · [`website`](https://github.com/topics/website) · [`wordpress-migration`](https://github.com/topics/wordpress-migration)
