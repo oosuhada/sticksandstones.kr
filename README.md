@@ -114,6 +114,16 @@ http://127.0.0.1:4173/legacy-live
 npm run build
 ```
 
-## Topics
+## Architecture & Topics / 아키텍처 및 주제
 
-[`case-study`](https://github.com/topics/case-study) · [`frontend`](https://github.com/topics/frontend) · [`gsap`](https://github.com/topics/gsap) · [`react`](https://github.com/topics/react) · [`typescript`](https://github.com/topics/typescript) · [`vite`](https://github.com/topics/vite) · [`website`](https://github.com/topics/website) · [`wordpress-migration`](https://github.com/topics/wordpress-migration) · [`wordpress`](https://github.com/topics/wordpress) · [`migration`](https://github.com/topics/migration) · [`legacy-modernization`](https://github.com/topics/legacy-modernization) · [`performance`](https://github.com/topics/performance) · [`responsive-design`](https://github.com/topics/responsive-design) · [`web-development`](https://github.com/topics/web-development) · [`accessibility`](https://github.com/topics/accessibility) · [`frontend-development`](https://github.com/topics/frontend-development)
+**Architecture / 아키텍처**<br>
+[`legacy-modernization`](https://github.com/topics/legacy-modernization) · [`component-based-architecture`](https://github.com/topics/component-based-architecture) · [`static-site-architecture`](https://github.com/topics/static-site-architecture) · [`progressive-enhancement`](https://github.com/topics/progressive-enhancement) · [`responsive-design-system`](https://github.com/topics/responsive-design-system) · [`asset-pipeline`](https://github.com/topics/asset-pipeline) · [`separation-of-concerns`](https://github.com/topics/separation-of-concerns)
+
+**Core technologies / 핵심 기술**<br>
+[`wordpress-migration`](https://github.com/topics/wordpress-migration) · [`gsap`](https://github.com/topics/gsap)
+
+**Project context / 프로젝트 맥락**<br>
+[`accessibility`](https://github.com/topics/accessibility) · [`case-study`](https://github.com/topics/case-study) · [`frontend`](https://github.com/topics/frontend) · [`frontend-development`](https://github.com/topics/frontend-development) · [`migration`](https://github.com/topics/migration) · [`performance`](https://github.com/topics/performance) · [`responsive-design`](https://github.com/topics/responsive-design) · [`web-development`](https://github.com/topics/web-development) · [`website`](https://github.com/topics/website)
+
+**Implementation stack / 구현 스택**<br>
+[`react`](https://github.com/topics/react) · [`typescript`](https://github.com/topics/typescript) · [`vite`](https://github.com/topics/vite) · [`wordpress`](https://github.com/topics/wordpress)
